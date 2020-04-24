@@ -1,7 +1,7 @@
 const api_url = 'emoji.json';
 
 async function getData() {
-	const response = await fetch(api_url);
+	const response = await fetch(emoji.json);
 
 	const data = await response.json();
 
