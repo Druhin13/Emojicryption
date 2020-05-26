@@ -1,2 +1,2 @@
 # Emojicryption
-Coming soon...
+Coming soon
