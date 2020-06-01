@@ -10,6 +10,19 @@
 	<link rel='manifest' href='manifest.json'>
 
 
+
+	<!--	This is the "Offline page" service worker-->
+
+	<script type="module">
+
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+		
+	</script>
+	
+
+
 	<style>
 		@media (max-width:991px) and (min-width:768px) {
 			html.w-mod-js:not(.w-mod-ix) [data-w-id="9a78f447-4cbd-cba9-382b-062b874ab20e"] {
@@ -101,19 +114,19 @@
 				-webkit-text-stroke-color: #000;
 			}
 		</style>
-		
-		
+
+
 	</div>
 	<div class="wrapper">
 		<div data-w-id="91efb7a7-01c4-b690-d618-bd4970f38eea" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="main-parent">
 			<div class="footer-bar">
 				<div class="social-links"><a href="#" class="music-bar">Made by</a><a href="#" class="music-bar"></a><a href="https://druh.in" class="music-bar m-left"><b>DRUHIN</b></a></div>
-				
-<!--				<img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cfaa66d7f806b5f68d14206_beatport.png" width="100" alt="" class="beatport" />-->
-				
+
+				<!--				<img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cfaa66d7f806b5f68d14206_beatport.png" width="100" alt="" class="beatport" />-->
+
 				<img src="assets/welcome.png" width="200" data-w-id="9a78f447-4cbd-cba9-382b-062b874ab20e" alt="Welcome to Emojicryption" class="c-text" />
-				
-				
+
+
 			</div>
 
 
