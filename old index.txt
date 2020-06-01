@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Emojicryption</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<!--	<h1 id="text">😀😁😂🤣😃😄😅😆😉😊😋😎😍😘🥰😗😙😚🙂🤗🤩🤔🤨😐😑😶🙄😏😣😥😮🤐😯😪😫🥱😴😌😛😜😝🤤😒😓😔😕🙃🤑😲🙁😖😞😟😤😢😭😦😧😨😩🤯😬😰😱🥵🥶😳🤪😵🥴😠😡🤬😷🤒🤕🤢🤮🤧😇🥳🥺🤠🤡🤥🤫🤭🧐🤓😈💪🏻🤏🏻👌🏻👈🏻👉🏻☝🏻👆🏻👇🏻✌🏻🤞🏻🖖🏻🤘🏻🤙🏻🖐🏻✋🏻🙏🏻👍🏻👎🏻✊🏻👊🏻🤛🏻🤜🏻🤚🏻👋🏻🤟🏻✍🏻👏🏻👐🏻🙌🏻🤲🏻🤝🏻💩🍕🍔🍟🌭🍿🧂🥓🥚🍳🧇🥞🧈🍞🥐🥨🥯🥖🧀🥗🥙🥪🌮🌯🥫🍖🍗🥩🍠🥟🥠🥡🍱🍘🍙🍚🍛🍜🦪🍣🍤🍥🥮🍢🧆🥘🍲🍝🥣🥧🍦🍧🍨🍩🍪🎂🍰🧁🍫🍬🍭🍡🍮🍯🍼🥛🧃☕🍵🧉🍶🍾🍷🍸🍹🍺🍻🥂🥃🧊🥤🥢🍴🥄🏺🥝🥥🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🍅🍆🌽🍄🥑🥒🥬🥦🥔🧄🧅🥕🌰🥜💐🌸🌹🌺🌻🌼🌷🥀🌱🌲🌳🌴🌵🌾🌿🍀🍁🍂🍃🌊💧🔥⛄⚡☔🌂🌈🌀🌠🌟⭐🌞🌜🌛🌚🌝💓💞💖💥💤💦💘🖤❌💲👁‍🗨🌍🎁🎨🎓⚽💍🏓🎯🏆🎮🎵🎹🔔🎤🎧📯🥁🎷🎺🎸🪕🎻🔎🧪🧬🩺💉💊📕⏳⏱⏰📌✂📐📏📎</h1>-->
+
+	<br><br><br>
+	<hr>
+	<br><br><br>
+	<h1>All Emojis</h1><br>
+	<h1 id="text">😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 🥰 😗 😙 😚 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 🥱 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 🥵 🥶 😳 🤪 😵 🥴 😠 😡 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🥳 🥺 🤠 🤡 🤥 🤫 🤭 🧐 🤓 😈 </h1>
+	
+	
+	
+	
+	<h1 id="data">REALLY</h1>
+	
+	<h1 id="emoji"></h1>
+	
+	<h1 id="data2"></h1>
+	
+	<button id="encryptButton">Encrypt</button>
+	<button id="decryptButton">Decrypt</button>
+
+	<br><br><br>
+	<hr>
+	<br><br><br>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
