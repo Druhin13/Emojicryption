@@ -2463,7 +2463,7 @@ p {
 .n-repeat {
 	position: absolute;
 	left: auto;
-	top: -1%;
+	top: -2%;
 	right: -4%;
 	bottom: auto;
 	z-index: 997;
@@ -2771,9 +2771,9 @@ html.w-mod-js *[data-ix="hide"] {
 	}
 
 	.n-repeat {
-		top: 0%;
+		top: -2%;
 		right: -15%;
-		display: none;
+/*		display: none;*/
 		width: 380px;
 	}
 
@@ -2834,7 +2834,7 @@ html.w-mod-js *[data-ix="hide"] {
 
 	.n-repeat {
 		top: 0%;
-		right: -50%;
+		right: -60%;
 		width: 390px;
 	}
 
