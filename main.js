@@ -57,116 +57,116 @@
 
 
 
-window.onload = function() {
-    var letterMap = {
-        "A": "🙂",
-        "B": "🤓",
-        "C": "🐒",
-        "D": "⛵",
-        "E": "🐦",
-        "F": "😎",
-        "G": "🌲",
-        "H": "🐢",
-        "I": "🐎",
-        "J": "⚽",
-        "K": "👑",
-        "L": "🐕",
-        "M": "🙃",
-        "N": "🍓",
-        "O": "😍",
-        "P": "🎂",
-        "Q": "🏵",
-        "R": "🐇",
-        "S": "🍬",
-        "T": "⭐",
-        "U": "🏈",
-        "V": "😵",
-        "W": "🐩",
-        "X": "🌻",
-        "Y": "🍇",
-        "Z": "🚀",
-        "0": "🎃",
-        " ": "🩱",
-    };
-    var encryptButton = document.getElementById('encryptButton');
-    encryptButton.addEventListener("click", myFunction);
+window.onload = function () {
+	var letterMap = {
+		"A": "🙂",
+		"B": "🤓",
+		"C": "🐒",
+		"D": "⛵",
+		"E": "🐦",
+		"F": "😎",
+		"G": "🌲",
+		"H": "🐢",
+		"I": "🐎",
+		"J": "⚽",
+		"K": "👑",
+		"L": "🐕",
+		"M": "🙃",
+		"N": "🍓",
+		"O": "😍",
+		"P": "🎂",
+		"Q": "🏵",
+		"R": "🐇",
+		"S": "🍬",
+		"T": "⭐",
+		"U": "🏈",
+		"V": "😵",
+		"W": "🐩",
+		"X": "🌻",
+		"Y": "🍇",
+		"Z": "🚀",
+		"0": "🎃",
+		" ": "🩱",
+	};
+	
+	
+	var encryptButton = document.getElementById('encryptButton');
+	encryptButton.addEventListener("click", myFunction);
 
-    function myFunction() {
-        var inputText = document.getElementById("data").innerHTML;
-        var word = inputText.toUpperCase();
-        var encrypted = "";
-        for (var i = 0; i < word.length; i++) {
-            encrypted += letterMap[word[i]] || word[i];
-        }
+	function myFunction() {
+		var inputText = document.getElementById("data").innerHTML;
+		var word = inputText.toUpperCase();
+		var encrypted = "";
+		for (var i = 0; i < word.length; i++) {
+			encrypted += letterMap[word[i]] || word[i];
+		}
 
-        function clearInput(element) {
-            element.value = "";
-        }
-        document.getElementById("emoji").innerHTML = encrypted;
-    }
-
-
-    var letterMap1 = {
-        "🙂": "A",
-        "🤓": "B",
-        "🐒": "C",
-        "⛵": "D",
-        "🐦": "E",
-        "😎": "F",
-        "🌲": "G",
-        "🐢": "H",
-        "🐎": "I",
-        "⚽": "J",
-        "👑": "K",
-        "🐕": "L",
-        "🙃": "M",
-        "🍓": "N",
-        "😍": "O",
-        "🎂": "P",
-        "🏵": "Q",
-        "🐇": "R",
-        "🍬": "S",
-        "⭐": "T",
-        "🏈": "U",
-        "😵": "V",
-        "🐩": "W",
-        "🌻": "X",
-        "🍇": "Y",
-        "🚀": "Z",
-        "🎃": "0",
-        "🩱": " ",
-    };
-
-    var decryptButton = document.getElementById('decryptButton');
-    decryptButton.addEventListener("click", myFunction1);
-    function myFunction1() {
-        var inputText = document.getElementById("data").innerHTML;
-        inputText = [...inputText];
-        var decrypted = "";
-        for (var i = 0; i < inputText.length; i++) {
-            decrypted += letterMap1[inputText[i]] || inputText[i];
-        }
-//        function clearInput(element) {
-//            element.value = "";
-//        }
-        document.getElementById("data2").innerHTML = decrypted;
-    }
+		function clearInput(element) {
+			element.value = "";
+		}
+		document.getElementById("emoji").innerHTML = encrypted;
+	}
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	var letterMap1 = {
+		"🙂": "A",
+		"🤓": "B",
+		"🐒": "C",
+		"⛵": "D",
+		"🐦": "E",
+		"😎": "F",
+		"🌲": "G",
+		"🐢": "H",
+		"🐎": "I",
+		"⚽": "J",
+		"👑": "K",
+		"🐕": "L",
+		"🙃": "M",
+		"🍓": "N",
+		"😍": "O",
+		"🎂": "P",
+		"🏵": "Q",
+		"🐇": "R",
+		"🍬": "S",
+		"⭐": "T",
+		"🏈": "U",
+		"😵": "V",
+		"🐩": "W",
+		"🌻": "X",
+		"🍇": "Y",
+		"🚀": "Z",
+		"🎃": "0",
+		"🩱": " ",
+	};
+
+	var decryptButton = document.getElementById('decryptButton');
+	decryptButton.addEventListener("click", myFunction1);
+
+	function myFunction1() {
+		var inputText = document.getElementById("data").innerHTML;
+		inputText = [...inputText];
+		var decrypted = "";
+		for (var i = 0; i < inputText.length; i++) {
+			decrypted += letterMap1[inputText[i]] || inputText[i];
+		}
+		//        function clearInput(element) {
+		//            element.value = "";
+		//        }
+		document.getElementById("data2").innerHTML = decrypted;
+	}
+
+
+
+};
+
+
+
+
+
+
+
+
+
 //    //CUSTOM EMOJI SECTION
 //    var customEmojiButton = document.getElementById('customEmoji');
 //    var table = document.querySelector("TABLE");
@@ -232,5 +232,3 @@ window.onload = function() {
 //        }
 //    }
 //    //CUSTOM EMOJI SECTION ENS HERE
-
-};
