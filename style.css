@@ -2685,6 +2685,7 @@ p {
 }
 
 .div-block {
+	margin-top: -15vh;
 	width: 60vw;
 }
 
@@ -2766,6 +2767,7 @@ html.w-mod-js *[data-ix="hide"] {
 
 	.paragraph {
 		width: 90%;
+		margin-bottom: 0;
 	}
 
 	.social-links {
