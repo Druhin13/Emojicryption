@@ -16,45 +16,23 @@ body {
 
 
 
-
-.col-3 {
-	float: left;
-	width: 27.33%;
-	margin: 40px 3%;
-	position: relative;
-}
-
-/* necessary to give position: relative to parent. */
-input[type="text"] {
-	font: 15px/24px "Lato", Arial, sans-serif;
-	color: #333;
-	width: 100%;
+input{
+	font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+	color: #131313;
 	box-sizing: border-box;
 	letter-spacing: 1px;
+	width: 70vw;
+	height: 6vh;
+	text-decoration: none;
+	border: none;
+	font-size: 6vh;
+	border-bottom: 2px solid #131313;
 }
 
-.effect-1 {
-	border: 0;
-	padding: 7px 0;
-	border-bottom: 1px solid #ccc;
+input[type=text]:focus {
+  transition: ease-in-out, width .35s ease-in-out;
+	border: none;
 }
-
-.effect-1 ~ .focus-border {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0;
-	height: 2px;
-	background-color: #4caf50;
-	transition: 0.4s;
-}
-
-.effect-1:focus ~ .focus-border {
-	width: 100%;
-	transition: 0.4s;
-}
-
-
 
 
 
