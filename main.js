@@ -57,7 +57,13 @@
 
 
 
-window.onload = function () {
+
+//	var encryptButton = document.getElementById('encryptButton');
+//	encryptButton.addEventListener("click", myFunction);
+
+function myFunction() {
+
+
 	var letterMap = {
 		"A": "🙂",
 		"B": "🤓",
@@ -88,24 +94,34 @@ window.onload = function () {
 		"0": "🎃",
 		" ": "🩱",
 	};
-	
-	
-	var encryptButton = document.getElementById('encryptButton');
-	encryptButton.addEventListener("click", myFunction);
 
-	function myFunction() {
-		var inputText = document.getElementById("data").innerHTML;
-		var word = inputText.toUpperCase();
-		var encrypted = "";
-		for (var i = 0; i < word.length; i++) {
-			encrypted += letterMap[word[i]] || word[i];
-		}
 
-		function clearInput(element) {
-			element.value = "";
-		}
-		document.getElementById("emoji").innerHTML = encrypted;
+
+
+
+	var inputText = document.getElementById("t-input").value;
+	var word = inputText.toUpperCase();
+	var encrypted = "";
+	for (var i = 0; i < word.length; i++) {
+		encrypted += letterMap[word[i]] || word[i];
 	}
+
+//	function clearInput(element) {
+//		element.value = "";
+//	}
+	
+	console.log(encrypted);
+	
+	document.getElementById("e-output").innerHTML = encrypted;
+}
+
+
+
+
+//	var decryptButton = document.getElementById('decryptButton');
+//	decryptButton.addEventListener("click", myFunction1);
+
+function myFunction1() {
 
 
 	var letterMap1 = {
@@ -139,25 +155,19 @@ window.onload = function () {
 		"🩱": " ",
 	};
 
-	var decryptButton = document.getElementById('decryptButton');
-	decryptButton.addEventListener("click", myFunction1);
 
-	function myFunction1() {
-		var inputText = document.getElementById("data").innerHTML;
-		inputText = [...inputText];
-		var decrypted = "";
-		for (var i = 0; i < inputText.length; i++) {
-			decrypted += letterMap1[inputText[i]] || inputText[i];
-		}
-		//        function clearInput(element) {
-		//            element.value = "";
-		//        }
-		document.getElementById("data2").innerHTML = decrypted;
+
+	var inputText = document.getElementById("e-input").innerHTML;
+	inputText = [...inputText];
+	var decrypted = "";
+	for (var i = 0; i < inputText.length; i++) {
+		decrypted += letterMap1[inputText[i]] || inputText[i];
 	}
-
-
-
-};
+	//        function clearInput(element) {
+	//            element.value = "";
+	//        }
+	document.getElementById("t-output").innerHTML = decrypted;
+}
 
 
 
