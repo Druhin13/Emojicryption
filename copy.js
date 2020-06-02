@@ -1,0 +1,1 @@
+new ClipboardJS('.find-out-text-3');
