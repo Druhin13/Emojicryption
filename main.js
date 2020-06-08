@@ -34,15 +34,41 @@ console.log(allemojis);
 
 
 
+// generating random number
+
+function randomNumber(min, max) {  
+    return Math.random() * (max - min) + min; 
+}  
+
+console.log(Math.floor(randomNumber(0, allemojis.length)));
 
 
 
 
 
 
-//encryption process
+
+// encryption process
 
 function myFunction() {
+	
+	
+	
+	
+	
+	
+	// converting text to emoji
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 	var letterMap = {
