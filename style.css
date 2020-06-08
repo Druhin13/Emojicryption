@@ -16,21 +16,24 @@ body {
 
 
 
-.t-input{
+.t-input {
 	font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
 	color: #131313;
 	box-sizing: border-box;
 	letter-spacing: 1px;
 	width: 70vw;
 	height: 6vh;
-/*	text-decoration: none;*/
+	/*	text-decoration: none;*/
 	border: none;
 	font-size: 3.5vh;
 	border-bottom: 2px solid #131313;
 }
 
 
-
+textarea:focus,
+input:focus {
+	outline: none;
+}
 
 
 

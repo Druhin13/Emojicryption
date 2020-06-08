@@ -36,6 +36,7 @@
 				transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0DEG) skew(0, 0);
 			}
 		}
+		
 	</style>
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
 	<script type="text/javascript">
@@ -50,8 +51,25 @@
 
 
 
-	<link href="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5d036df0eb966479e3773222_dot.jpg" rel="shortcut icon" type="image/x-icon" />
-	<link href="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5d036df3c78417c35eac2d75_dot-1.jpg" rel="apple-touch-icon" />
+	<!--	clipboard js-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+
+	<style>
+		.n-repeat {
+			display: none;
+		}
+	</style>
+
+
+
+	<!--	icon images-->
+
+	<link href="assets/icon.png" rel="shortcut icon" type="image/x-icon" />
+	<link href="assets/icon2.png" rel="apple-touch-icon" />
+
+
 </head>
 
 <body>
@@ -109,26 +127,46 @@
 	</div>
 	<div class="wrapper">
 		<div data-w-id="91efb7a7-01c4-b690-d618-bd4970f38eea" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="music-parent">
-			<div class="footer-bar"><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cfaa66d7f806b5f68d14206_beatport.png" width="100" alt="" class="beatport hide" /><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cf99ec079674e9baa1b3633_logo-c.png" width="200" data-w-id="9a78f447-4cbd-cba9-382b-062b874ab20e" alt="" class="c-text" />
-				<div class="social-links"><a href="#" class="music-bar">FB </a><a href="#" class="music-bar">_</a><a href="#" class="music-bar m-left">IN</a></div><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cfaa66d7f806b5f68d14206_beatport.png" width="100" alt="" class="beatport" />
-			</div><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cf99e9be1b65855eb9358b8_splash.png" width="186.5" alt="" class="splash" /><a data-w-id="5f585972-d061-a632-165d-445149c94c4a" href="/" class="close w-inline-block"></a><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cf99e9be1b65800559358b9_jb-repeat.png" width="440" alt="" class="n-repeat" /><img src="https://uploads-ssl.webflow.com/5cf99dd6e1b6589172935708/5cf99e9ba2c631092c503bcf_joseph-berry.png" width="80" alt="" class="logo" />
+
+
+			<div class="footer-bar"><img src="assets/welcome.png" width="200" data-w-id="9a78f447-4cbd-cba9-382b-062b874ab20e" alt="" class="c-text" />
+				<div class="social-links"><a href="#" class="music-bar">Made by</a><a href="#" class="music-bar"></a><a href="https://druh.in" class="music-bar m-left"><b>DRUHIN</b></a></div>
+			</div>
+
+			<a data-w-id="5f585972-d061-a632-165d-445149c94c4a" href="index.html" class="close w-inline-block"></a>
+
+			<img src="assets/emoji-repeat.png" width="440" alt="Emojicryption" id="emoji-repeat" class="n-repeat" /><img src="assets/emojicrytion-logo.png" width="80" alt="" class="logo" />
 			<div data-w-id="c5f158ee-2e24-4d7a-09ca-34402fc3f847" class="main-child-about">
 				<div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-1">
 					<div class="div-block">
-						<h1 class="heading">No soul for sale. <br />Music is the answer. <br />No ghosts here. <br /></h1>
-						<p class="paragraph">A record producer or music producer oversees and manages the sound recording and production of HOUSE music, which may range from recording one song to recording a lengthy concept album.</p>
+						<h1 class="heading">Here is your<br><br>"secret message"<br><br></h1>
+
+
+						<!--						emoji will be placed here-->
+
+						<p class="paragraph" id="e-output">Secret text should be here</p>
 					</div>
 				</div>
 				<div class="main-grand-child _2">
 					<div data-w-id="2d05d29d-42ac-25b1-0f89-7c1ff76f5ce2" style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
 						<div class="text-hide">
-							<div class="sub-text">save my soul</div>
-						</div><a data-w-id="b3d5f495-2642-5bd1-b83b-f42e135c9086" href="#" class="main-link">Joseph</a>
+							<div class="sub-text">enter the emojis</div>
+						</div>
+						<br>
+
+						<a data-w-id="b3d5f495-2642-5bd1-b83b-f42e135c9086" href="#">
+							<input id="t-input" class="t-input" type="text" placeholder="" autofocus autocomplete="off">
+						</a>
+
 					</div>
-				</div><a data-w-id="f5925148-03df-1080-5e98-1633c9d1551e" style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);width:160PX" href="#" class="btn-parent w-inline-block">
-					<div style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="find-out-text-1">Find out why</div>
-					<div style="-webkit-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="find-out-text-2">Find out why</div>
-					<div style="opacity:0" class="find-out-text-3">Close</div>
+				</div>
+
+				<a data-w-id="f5925148-03df-1080-5e98-1633c9d1551e" style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);width:160PX" href="#" class="btn-parent w-inline-block" onclick="myFunction()">
+					<div style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="find-out-text-1" id="encryptButton" onclick="myFunction()">DECRYPT</div> 
+
+
+					<div style="-webkit-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 34PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="find-out-text-2" id="myFunction()">ONCE MORE ?</div>
+					<div style="opacity:0" class="find-out-text-3" id="e_copy" data-clipboard-target="#e-output">COPY</div>
 				</a>
 			</div>
 		</div>
@@ -177,6 +215,10 @@
 			s.parentNode.insertBefore(tk, s)
 		})(document);
 	</script>
+
+
+	<script src="main.js"></script>
+	<script src="copy.js"></script>
 
 
 </body>
