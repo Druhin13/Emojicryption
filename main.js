@@ -44,49 +44,6 @@ console.log(allemojis);
 
 
 
-// converting text to emoji
-
-
-
-
-// generating random number
-
-function randomNumber(min, max) {
-	return Math.random() * (max - min) + min;
-}
-
-var random = Math.floor(randomNumber(0, allemojis.length));
-console.log(random);
-
-key = allemojis[random];
-
-
-console.log(key);
-
-
-
-
-//reversing the text 
-
-inputText = inputText.split('').reverse().join('');
-
-
-
-//converting the text
-
-for (i = 0; i <= inputText.length; i++) {
-
-	ascii = inputText.charCodeAt(i) - 31;
-	
-	if (random > ascii) {
-		emoji = allemojis[random - ascii];
-	} else {
-		emoji = allemojis[random + ascii];
-	}
-
-	encrypted
-}
-
 
 
 
@@ -97,12 +54,61 @@ for (i = 0; i <= inputText.length; i++) {
 
 function myFunction() {
 
+	var inputText = document.getElementById("t-input").value;
+	var encrypted = "";
+
+	// converting text to emoji
 
 
 
 
+	// generating random number
+
+	function randomNumber(min, max) {
+		return Math.random() * (max - min) + min;
+	}
+
+	var random = Math.floor(randomNumber(0, allemojis.length));
+	console.log(random);
+
+	key = allemojis[random];
 
 
+	console.log(key);
+
+
+
+
+	//reversing the text 
+
+	inputText = inputText.split('').reverse().join('');
+
+
+
+	//converting the text
+
+	for (i = 0; i <= inputText.length - 1; i++) {
+
+		ascii = inputText.charCodeAt(i) - 31;
+
+		if (random > ascii) {
+			emoji = allemojis[random - ascii];
+		} else {
+			emoji = allemojis[random + ascii];
+		}
+
+		encrypted = encrypted + emoji;
+	}
+
+
+	//adding the key to the encrypted text
+
+	encrypted = key + encrypted + key;
+
+	if (inputText.length == 0) {
+		encrypted = "You need to write something !";
+		document.getElementById("e_copy").innerHTML = "BACK";
+	}
 
 
 	var letterMap = {
@@ -140,16 +146,7 @@ function myFunction() {
 
 
 
-	var inputText = document.getElementById("t-input").value;
-	var word = inputText.toUpperCase();
-	var encrypted = "";
-	for (var i = 0; i < word.length; i++) {
-		encrypted += letterMap[word[i]] || word[i];
-	}
 
-	//	function clearInput(element) {
-	//		element.value = "";
-	//	}
 
 	console.log(encrypted);
 
