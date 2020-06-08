@@ -106,46 +106,10 @@ function myFunction() {
 	encrypted = key + encrypted + key;
 
 	if (inputText.length == 0) {
-		encrypted = "You need to write something !";
+		encrypted = "";
+		document.getElementById("try-again").innerHTML = "You did't write.<br>Get back &<br>Try Again";
 		document.getElementById("e_copy").innerHTML = "BACK";
 	}
-
-
-	var letterMap = {
-		"A": "🙂",
-		"B": "🤓",
-		"C": "🐒",
-		"D": "⛵",
-		"E": "🐦",
-		"F": "😎",
-		"G": "🌲",
-		"H": "🐢",
-		"I": "🐎",
-		"J": "⚽",
-		"K": "👑",
-		"L": "🐕",
-		"M": "🙃",
-		"N": "🍓",
-		"O": "😍",
-		"P": "🎂",
-		"Q": "🏵",
-		"R": "🐇",
-		"S": "🍬",
-		"T": "⭐",
-		"U": "🏈",
-		"V": "😵",
-		"W": "🐩",
-		"X": "🌻",
-		"Y": "🍇",
-		"Z": "🚀",
-		"0": "🎃",
-		" ": "🩱",
-	};
-
-
-
-
-
 
 
 	console.log(encrypted);
@@ -166,47 +130,129 @@ function myFunction() {
 function myFunction1() {
 
 
-	var letterMap1 = {
-		"🙂": "A",
-		"🤓": "B",
-		"🐒": "C",
-		"⛵": "D",
-		"🐦": "E",
-		"😎": "F",
-		"🌲": "G",
-		"🐢": "H",
-		"🐎": "I",
-		"⚽": "J",
-		"👑": "K",
-		"🐕": "L",
-		"🙃": "M",
-		"🍓": "N",
-		"😍": "O",
-		"🎂": "P",
-		"🏵": "Q",
-		"🐇": "R",
-		"🍬": "S",
-		"⭐": "T",
-		"🏈": "U",
-		"😵": "V",
-		"🐩": "W",
-		"🌻": "X",
-		"🍇": "Y",
-		"🚀": "Z",
-		"🎃": "0",
-		"🩱": " ",
-	};
+	//	var letterMap1 = {
+	//		"🙂": "A",
+	//		"🤓": "B",
+	//		"🐒": "C",
+	//		"⛵": "D",
+	//		"🐦": "E",
+	//		"😎": "F",
+	//		"🌲": "G",
+	//		"🐢": "H",
+	//		"🐎": "I",
+	//		"⚽": "J",
+	//		"👑": "K",
+	//		"🐕": "L",
+	//		"🙃": "M",
+	//		"🍓": "N",
+	//		"😍": "O",
+	//		"🎂": "P",
+	//		"🏵": "Q",
+	//		"🐇": "R",
+	//		"🍬": "S",
+	//		"⭐": "T",
+	//		"🏈": "U",
+	//		"😵": "V",
+	//		"🐩": "W",
+	//		"🌻": "X",
+	//		"🍇": "Y",
+	//		"🚀": "Z",
+	//		"🎃": "0",
+	//		"🩱": " ",
+	//	};
+	//
+	//
+	//
+	//	var inputText = document.getElementById("e-input").innerHTML;
+	//	inputText = [...inputText];
+	//	var decrypted = "";
+	//	for (var i = 0; i < inputText.length; i++) {
+	//		decrypted += letterMap1[inputText[i]] || inputText[i];
+	//	}
+	//	//        function clearInput(element) {
+	//	//            element.value = "";
+	//	//        }
+	//	document.getElementById("t-output").innerHTML = decrypted;
 
 
 
-	var inputText = document.getElementById("e-input").innerHTML;
+
+
+
+
+
+
+	/*****************************************************************/
+
+
+	var inputText = document.getElementById("e-input").value;
 	inputText = [...inputText];
 	var decrypted = "";
-	for (var i = 0; i < inputText.length; i++) {
-		decrypted += letterMap1[inputText[i]] || inputText[i];
+
+	console.log(inputText);
+
+
+
+
+
+
+	// extracting the random number and the key
+
+
+	key = inputText[0];
+	console.log(key);
+
+	random = allemojis.indexOf(key)
+	console.log(random);
+
+
+
+
+	for (i = 1; i <= inputText - 2; i++) {
+		var n = inputText.indexOf(inputText[i]);
+		var ch = inputText[n];
+
 	}
-	//        function clearInput(element) {
-	//            element.value = "";
-	//        }
-	document.getElementById("t-output").innerHTML = decrypted;
+
+
+	//reversing the text 
+
+	//	inputText = inputText.split('').reverse().join('');
+	//
+	//
+	//
+	//	//converting the text
+	//
+	//	for (i = 0; i <= inputText.length - 1; i++) {
+	//
+	//		ascii = inputText.charCodeAt(i) - 31;
+	//
+	//		if (random > ascii) {
+	//			emoji = allemojis[random - ascii];
+	//		} else {
+	//			emoji = allemojis[random + ascii];
+	//		}
+	//
+	//		encrypted = encrypted + emoji;
+	//	}
+	//
+	//
+	//	//adding the key to the encrypted text
+	//
+	//	encrypted = key + encrypted + key;
+	//
+	//	if (inputText.length == 0) {
+	//		encrypted = "";
+	//		document.getElementById("try-again").innerHTML = "You did't write.<br>Get back &<br>Try Again";
+	//		document.getElementById("e_copy").innerHTML = "BACK";
+	//	}
+	//
+	//
+	//
+	//
+	//	console.log(encrypted);
+	//
+	//	document.getElementById("e-output").innerHTML = encrypted;
+
+
 }
