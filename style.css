@@ -16,7 +16,7 @@ body {
 
 
 
-.t-input {
+.t-input, .e-input {
 	font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
 	color: #131313;
 	box-sizing: border-box;
