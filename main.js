@@ -186,6 +186,14 @@ function myFunction1() {
 
 
 	var inputText = document.getElementById("e-input").value;
+
+	//	if (inputText.length == 0) {
+	//		decrypted = "";
+	//		document.getElementById("try-again").innerHTML = "You did't write.<br>Get back &<br>Try Again";
+	//		document.getElementById("t_copy").innerHTML = "BACK";
+	//	}
+
+
 	inputText = [...inputText];
 	var decrypted = "";
 
@@ -202,18 +210,47 @@ function myFunction1() {
 	key = inputText[0];
 	console.log(key);
 
-	random = allemojis.indexOf(key)
+	random = allemojis.indexOf(key);
 	console.log(random);
 
 
 
 
-	for (i = 1; i <= inputText - 2; i++) {
-		var n = inputText.indexOf(inputText[i]);
-		var ch = inputText[n];
+	for (j = 1; j <= inputText.length - 2; j++) {
 
+		//extracting each emoji
+		var ch = inputText[j];
+
+		//searching it from all emojis
+		// n is the ascii value
+		var n = allemojis.indexOf(ch);
+
+		if (random > n) {
+			var t = String.fromCharCode(random - n + 31);
+			decrypted = decrypted + t;
+		}
+
+		//		
+		//		console.log(ch);
+		//		console.log(n);
 	}
 
+	decrypted = decrypted.split('').reverse().join('');
+
+	console.log(decrypted);
+
+
+	//
+	//	if (inputText.length == 0) {
+	//		decrypted = "";
+	//		document.getElementById("try-again").innerHTML = "You did't write.<br>Get back &<br>Try Again";
+	//		document.getElementById("t_copy").innerHTML = "BACK";
+	//	}
+
+
+
+
+	document.getElementById("t-output").innerHTML = decrypted;
 
 	//reversing the text 
 
