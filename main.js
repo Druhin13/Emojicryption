@@ -57,7 +57,6 @@ function myFunction() {
 	var inputText = document.getElementById("t-input").value;
 	var encrypted = "";
 
-	// converting text to emoji
 
 
 
