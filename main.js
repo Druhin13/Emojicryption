@@ -105,9 +105,14 @@ function myFunction() {
 	encrypted = key + encrypted + key;
 
 	if (inputText.length == 0) {
-		encrypted = "";
-		document.getElementById("try-again").innerHTML = "You did't write.<br>Get back &<br>Try Again";
+		encrypted = "Get back & Try Again";
+		document.getElementById("try-again").innerHTML = "You did't write";
 		document.getElementById("e_copy").innerHTML = "BACK";
+	}
+	
+	else {
+		document.getElementById("try-again").innerHTML = "Here is your <br><br> &quot;encrypted text&quot;";
+		document.getElementById("e_copy").innerHTML = "COPY";
 	}
 
 
@@ -219,14 +224,23 @@ function myFunction1() {
 
 		//extracting each emoji
 		var ch = inputText[j];
+		
+		console.log(ch);
 
 		//searching it from all emojis
 		// n is the ascii value
 		var n = allemojis.indexOf(ch);
+		console.log(n);
 
 		if (random > n) {
 			var t = String.fromCharCode(random - n + 31);
 			decrypted = decrypted + t;
+			console.log(decrypted);
+		}
+		if (random < n) {
+			var t = String.fromCharCode(n - random + 31);
+			decrypted = decrypted + t;
+			console.log(decrypted);
 		}
 
 		//		
