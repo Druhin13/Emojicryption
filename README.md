@@ -6,30 +6,30 @@
 
 <a href="https://github.com/Druhin13/Emojicryption/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Druhin13/Emojicryption"></a>  <img src="https://img.shields.io/github/languages/code-size/Druhin13/Emojicryption"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a66f29cbc49a4c7dbfacfdc4d8f9c105)](https://app.codacy.com/manual/Druhin13/corona?utm_source=github.com&utm_medium=referral&utm_content=Druhin13/corona&utm_campaign=Badge_Grade_Dashboard) <img src="https://img.shields.io/github/issues-raw/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/v/release/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/count/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/top/Druhin13/Emojicryption?color=yellow">
 
-
+<br>
 
 
 ![1280720](https://user-images.githubusercontent.com/46156118/84474694-e5511180-aca8-11ea-980f-41b2b3099c9b.png)
 
 
-## Contributing to Corona Info
+## Contributing to Emojicryption
 
-Thanks for your interest in helping Corona Info
+Thanks for your interest in helping Emojicryption
 
 ### Getting Started
 
-Corona Info's [open issues are here](https://github.com/Druhin13/Emojicryption/issues)
+Emojicryption's [open issues are here](https://github.com/Druhin13/Emojicryption/issues)
 In time, we'll tag issues that would make a good first pull request for new contributors.
 An easy way to get started helping the project is to *create an issue*.
-You can do that on the coronainfo's issues page by clicking on the green button at the right.
+You can do that on the Emojicryption's issues page by clicking on the green button at the right.
 
 Issues can include bugs to fix, features to add, or documentation that looks outdated. 
 
 ### Contributions
 
-Corona Info welcomes contributions from everyone.
+Emojicryption welcomes contributions from everyone.
 
-Contributions to Corona Info should be made in the form of GitHub pull requests.
+Contributions to Emojicryption should be made in the form of GitHub pull requests.
 Each pull request will be reviewed and either landed in the master tree
 or given feedback for changes that would be required.
 
