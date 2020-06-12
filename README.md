@@ -155,5 +155,5 @@ https://www.contributor-covenant.org/faq
  Github - [https://github.com/Druhin13](https://github.com/Druhin13)<br>
  Dribbble - [https://dribbble.com/druhin](https://dribbble.com/druhin)<br>
  
-Made with 💕  &  ☕  by  Druh.in
 
+🔼🔒💡🔦📢⌛‼▶🔈🔨▶🔍🔧📲🅱🔼
