@@ -250,9 +250,11 @@ function myFunction1() {
 
 	if (decrypted == "") {
 		decrypted = "There's something wrong";
+		document.getElementById("try-again").innerHTML = "WRONG EMOJIS";
+		document.getElementById("t_copy").innerHTML = "BACK";
 	}
 	if (inputText == "") {
-		decrypted = "Where are your emojis 🤨 ?";
+		decrypted = "Where are your emojis 🤨";
 		document.getElementById("try-again").innerHTML = "NO EMOJIS ???";
 		document.getElementById("t_copy").innerHTML = "BACK";
 	}
