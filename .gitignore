@@ -1,2 +1,2 @@
-
-main.js
+# Ignore all js files
+*.js
