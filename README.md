@@ -4,7 +4,7 @@
 # Emojicryption<br><img src="https://img.shields.io/github/stars/Druhin13/Emojicryption?style=social"> <a target="none" href="https://druh.in"><img src="https://img.shields.io/badge/Made%20by-Druhin-131313"></a>
 <a href="https://emojicryption.github.io"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=maintenance&up_color=green&up_message=online&url=https%3A%2F%2Femojicryption.github.io"></a>  <img src="https://img.shields.io/uptimerobot/ratio/7/m784709526-2cb60baaa86e5acb72fee78d">  <a href="https://www.ssllabs.com/ssltest/analyze?d=emojicryption.github.io"><img src="https://img.shields.io/badge/status-A%2B-brightgreen"></a>  <a href="https://github.com/Druhin13/Emojicryption"><img src="https://img.shields.io/github/last-commit/Druhin13/Emojicryption"></a>  <img src="https://img.shields.io/github/commits-since/Druhin13/Emojicryption/1.0.1">
 
-<a href="https://github.com/Druhin13/corona/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Druhin13/corona"></a>  <img src="https://img.shields.io/github/languages/code-size/Druhin13/corona"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a66f29cbc49a4c7dbfacfdc4d8f9c105)](https://app.codacy.com/manual/Druhin13/corona?utm_source=github.com&utm_medium=referral&utm_content=Druhin13/corona&utm_campaign=Badge_Grade_Dashboard) <img src="https://img.shields.io/github/issues-raw/Druhin13/corona">  <img src="https://img.shields.io/github/v/release/Druhin13/corona">  <img src="https://img.shields.io/github/languages/count/Druhin13/corona">  <img src="https://img.shields.io/github/languages/top/Druhin13/corona?color=yellow">
+<a href="https://github.com/Druhin13/Emojicryption/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Druhin13/Emojicryption"></a>  <img src="https://img.shields.io/github/languages/code-size/Druhin13/Emojicryption"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a66f29cbc49a4c7dbfacfdc4d8f9c105)](https://app.codacy.com/manual/Druhin13/corona?utm_source=github.com&utm_medium=referral&utm_content=Druhin13/corona&utm_campaign=Badge_Grade_Dashboard) <img src="https://img.shields.io/github/issues-raw/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/v/release/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/count/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/top/Druhin13/Emojicryption?color=yellow">
 
 
 <br>
@@ -21,7 +21,7 @@ Thanks for your interest in helping Corona Info
 
 ### Getting Started
 
-Corona Info's [open issues are here](https://github.com/Druhin13/corona/issues)
+Corona Info's [open issues are here](https://github.com/Druhin13/Emojicryption/issues)
 In time, we'll tag issues that would make a good first pull request for new contributors.
 An easy way to get started helping the project is to *create an issue*.
 You can do that on the coronainfo's issues page by clicking on the green button at the right.
@@ -36,7 +36,7 @@ Contributions to Corona Info should be made in the form of GitHub pull requests.
 Each pull request will be reviewed and either landed in the master tree
 or given feedback for changes that would be required.
 
-Make sure you check the [open issues](https://github.com/Druhin13/corona/issues).
+Make sure you check the [open issues](https://github.com/Druhin13/Emojicryption/issues).
 
 
 ### Pull Request Checklist
