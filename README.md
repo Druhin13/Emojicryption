@@ -7,10 +7,7 @@
 <a href="https://github.com/Druhin13/Emojicryption/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Druhin13/Emojicryption"></a>  <img src="https://img.shields.io/github/languages/code-size/Druhin13/Emojicryption"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a66f29cbc49a4c7dbfacfdc4d8f9c105)](https://app.codacy.com/manual/Druhin13/corona?utm_source=github.com&utm_medium=referral&utm_content=Druhin13/corona&utm_campaign=Badge_Grade_Dashboard) <img src="https://img.shields.io/github/issues-raw/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/v/release/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/count/Druhin13/Emojicryption">  <img src="https://img.shields.io/github/languages/top/Druhin13/Emojicryption?color=yellow">
 
 
-<br>
 
-
-## Snapshots
 
 ![1280720](https://user-images.githubusercontent.com/46156118/84474694-e5511180-aca8-11ea-980f-41b2b3099c9b.png)
 
