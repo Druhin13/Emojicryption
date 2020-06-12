@@ -1,4 +1,4 @@
-<a href="https://coronavirusapp.github.io"><img src="https://user-images.githubusercontent.com/46156118/84473292-6e1a7e00-aca6-11ea-848a-b687a92298f3.png"></a>
+<a href="https://emojicryption.github.io"><img src="https://user-images.githubusercontent.com/46156118/84473292-6e1a7e00-aca6-11ea-848a-b687a92298f3.png"></a>
 
 
 # Emojicryption<br><img src="https://img.shields.io/github/stars/Druhin13/Emojicryption?style=social"> <a target="none" href="https://druh.in"><img src="https://img.shields.io/badge/Made%20by-Druhin-131313"></a>
