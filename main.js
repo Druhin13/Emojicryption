@@ -248,6 +248,17 @@ function myFunction1() {
 
 
 
+	if (decrypted == "") {
+		decrypted = "There's something wrong";
+	}
+	if (inputText == "") {
+		decrypted = "Where are your emojis 🤨 ?";
+		document.getElementById("try-again").innerHTML = "NO EMOJIS ???";
+		document.getElementById("t_copy").innerHTML = "BACK";
+	}
+
+
+
 
 	document.getElementById("t-output").innerHTML = decrypted;
 
