@@ -12,7 +12,7 @@
 
 ## Snapshots
 
-<img src="https://user-images.githubusercontent.com/46156118/78874152-91883900-7a69-11ea-904f-42d8516e55a4.png">
+![1280720](https://user-images.githubusercontent.com/46156118/84474694-e5511180-aca8-11ea-980f-41b2b3099c9b.png)
 
 
 ## Contributing to Corona Info
