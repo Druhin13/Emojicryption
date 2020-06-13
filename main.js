@@ -110,6 +110,7 @@ function myFunction() {
 		document.getElementById("e_copy").innerHTML = "BACK";
 	}
 	
+	
 	else {
 		document.getElementById("try-again").innerHTML = "Here is your <br><br> &quot;encrypted text&quot;";
 		document.getElementById("e_copy").innerHTML = "COPY";
@@ -277,6 +278,7 @@ function myFunction1() {
 
 
 	document.getElementById("t-output").innerHTML = decrypted;
+//	var res = str.replace("Microsoft", "W3Schools");
 
 	//reversing the text 
 
