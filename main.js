@@ -106,7 +106,7 @@ function myFunction() {
 
 	if (inputText.length == 0) {
 		encrypted = "Get back & Try Again";
-		document.getElementById("try-again").innerHTML = "You did't write";
+		document.getElementById("try-again").innerHTML = "You didn't write";
 		document.getElementById("e_copy").innerHTML = "BACK";
 	}
 	
